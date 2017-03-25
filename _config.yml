@@ -3,14 +3,14 @@
 # automatically.
 
 ### SEO settings
-title       : shiromizu
-description : "Super lame theme."
+title       : yabo
+description : "A super lame theme."
 keywords    : "Jekyll, theme, portfolio, blog, web"
 
 
 ### Site settings (all the technical thingz)
 # url         : http://vulfgang.github.io
-# baseurl     : "/shiromizu"
+# baseurl     : "/yabo"
 
 
 ### Site settings (colors, pretty thingz, etc.)

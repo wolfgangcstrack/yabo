@@ -1,7 +1,8 @@
 // Mess with colors in here (note: materialize is already imported by source/css/main.scss)
+// Note: for color variables, use the materialize color palette class names.
+// Materialize color palette:
+// http://materializecss.com/color.html#palette
 
-.card-action {
-  a {
-    @extend .red-text;
-  }
-}
+$primary-color: ".red";
+$secondary-color: ".grey, .lighten-3";
+$link-color: ".red-text";

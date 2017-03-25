@@ -14,9 +14,8 @@ keywords    : "Jekyll, theme, portfolio, blog, web"
 
 
 ### Site settings (colors, pretty thingz, etc.)
-# for list of colors, see http://materializecss.com/color.html#palette
-primary_color   : "red"
-secondary_color : "grey lighten-2"
+# NOTE: color settings have been moved to _sass/_colors.scss
+# If you want to customize site colors, change the variables in that file.
 
 
 ### Author settings

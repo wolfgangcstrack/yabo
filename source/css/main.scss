@@ -14,3 +14,21 @@ main {
   flex: 1 0 auto;
   padding-top: 25px;
 }
+
+nav {
+  @extend #{$primary-color};
+}
+
+.card {
+  @extend #{$secondary-color};
+}
+
+.card-action {
+  a {
+    @extend #{$link-color};
+  }
+}
+
+footer {
+  @extend .transparent;
+}

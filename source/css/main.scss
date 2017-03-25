@@ -1,19 +1,19 @@
 ---
 ---
 
-@import "materialize.scss";
-@import "font-awesome.scss";
-@import "colors.scss";
+@import "materialize";
+@import "font-awesome";
+@import "colors";
 
 @font-face {
     font-family: 'Roboto Light';
-    src: url('/fonts/roboto/Roboto-Light.ttf'); /*URL to font*/
+    src: url('/fonts/roboto/Roboto-Light.ttf');
 }
 
 
-@-webkit-keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
-@-moz-keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
-@keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
+// @-webkit-keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
+// @-moz-keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
+// @keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
 
 
 body,main,nav,footer,h1,h2,h3,h4,h5,p,a{
@@ -45,41 +45,49 @@ nav {
   // text-shadow: 2px 2px #000000;
 }
 
+.side-nav {
+  @extend #{$primary-color};
+}
+
 .btn, .btn-large, .btn-floating {
   @extend #{$button-color};
   @extend #{$button-text};
 }
 
-.fade-in {
-  opacity:0;
-  -webkit-animation:fadeIn ease-in 1;
-  -moz-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-  -webkit-animation-fill-mode:fowards;
-  -moz-animation-fill-mode:fowards;
-  animation-fill-mode:forwards;
-  -webkit-animation-duration:1s;
-  -mox-animation-duration:1s;
-  animation-duration:1s;
+.button-collapse {
+  @extend #{$button-text};
 }
 
-.fade-in.one{
-  -webkit-animation-delay:.3s;
-  -moz-animation-delay:.3s;
-  animation-delay:.3s;
-}
+// .fade-in {
+//   opacity:0;
+//   -webkit-animation:fadeIn ease-in 1;
+//   -moz-animation:fadeIn ease-in 1;
+//   animation:fadeIn ease-in 1;
+//   -webkit-animation-fill-mode:backwards;
+//   -moz-animation-fill-mode:backwards;
+//   animation-fill-mode:backwards;
+//   -webkit-animation-duration:1s;
+//   -mox-animation-duration:1s;
+//   animation-duration:1s;
+// }
 
-.fade-in.two{
-  -webkit-animation-delay:1.3s;
-  -moz-animation-delay:1.3s;
-  animation-delay:1.3s;
-}
+// .fade-in.one{
+//   -webkit-animation-delay:.3s;
+//   -moz-animation-delay:.3s;
+//   animation-delay:.3s;
+// }
 
-.fade-in.three{
-  -webkit-animation-delay:2.3s;
-  -moz-animation-delay:2.3s;
-  animation-delay:2.3s;
-}
+// .fade-in.two{
+//   -webkit-animation-delay:1.3s;
+//   -moz-animation-delay:1.3s;
+//   animation-delay:1.3s;
+// }
+
+// .fade-in.three{
+//   -webkit-animation-delay:2.3s;
+//   -moz-animation-delay:2.3s;
+//   animation-delay:2.3s;
+// }
 
 .card, .card-reveal {
   @extend #{$secondary-color};

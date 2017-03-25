@@ -1,15 +1,20 @@
-<div class="fade-in">
-	<nav>
-	    <div class="nav-wrapper">
-	      <div class="container">
-	          <a href="/" class="brand-logo"> {{ site.title }} </a>
-	          <ul id="nav-mobile" class="right hide-on-med-and-down">
-	          	<li><a href="#">Featured</a></li>
-	            <li><a href="#">Projects</a></li>
-	            <li><a href="#">Rants</a></li>
-	            <li><a href="#">Resume</a></li>
-	          </ul>
-	      </div>
-	    </div>
-	</nav>
-</div>
+<nav>
+    <div class="nav-wrapper">
+      <div class="container">
+          <a href="/" class="brand-logo"> {{ site.title }} </a>
+          <a href="#" data-activates="mobile-side-nav" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="#">Featured</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Rants</a></li>
+            <li><a href="#">Resume</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-side-nav">
+		        <li><a href="#">Featured</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Rants</a></li>
+            <li><a href="#">Resume</a></li>
+		      </ul>
+      </div>
+    </div>
+</nav>

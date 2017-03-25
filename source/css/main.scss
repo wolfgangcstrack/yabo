@@ -2,6 +2,7 @@
 ---
 
 @import "materialize";
+@import "font-awesome";
 @import "colors";
 
 body {
@@ -16,13 +17,19 @@ main {
   padding-bottom: 30px;
 }
 
-.brand-logo {
+.brand-logo, nav ul li a {
   @extend #{$brand-text-color};
+  font-size: 1.5rem;
 }
 
 nav {
   @extend #{$primary-color};
   box-shadow: none;
+}
+
+.btn, .btn-large, .btn-floating {
+  @extend #{$button-color};
+  @extend #{$button-text};
 }
 
 .card, .card-reveal {
@@ -32,6 +39,11 @@ nav {
 footer {
   @extend #{$tertiary-color};
   @extend #{$content-text-color};
+
+  #social-links li {
+    display: inline;
+    margin: auto 3px;
+  }
 }
 
 h1, h2, h3, h4, h5, .card-title {

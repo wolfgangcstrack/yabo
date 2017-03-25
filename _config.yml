@@ -1,0 +1,24 @@
+# Set all the thingz here. Go nuts. Seriously. Just remember to restart your
+# server process after changing anything in here as the file is not reloaded
+# automatically.
+
+### SEO settings
+title       : shiromizu
+description : "Super lame theme."
+keywords    : "Jekyll, theme, portfolio, blog, web"
+
+### Site settings
+# url         : http://vulfgang.github.io/
+# baseurl     : "/shiromizu"
+
+### Author settings
+author:
+  name      : Wolfgang C. Strack
+  title     : Shiba Inu Enthusiast
+  bio       : "I suck."
+  thumb     : /images/author.jpg
+  email     : wolfgangcstrack@gmail.com
+  url       : http://vulfgang.github.io/
+  github    : https://github.com/vulfgang
+  facebook  : https://www.facebook.com/wolfgangcstrack
+  linkedin  : https://www.linkedin.com/in/wolfgangcstrack/

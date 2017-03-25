@@ -3,14 +3,14 @@
 // Materialize color palette:
 // http://materializecss.com/color.html#palette
 
-$primary-color: ".transparent";
+$primary-color: ".blue, .lighten-2";
 $secondary-color: ".grey, .lighten-2";
 $tertiary-color: ".grey, .lighten-2"; // mainly for footer
 
-$button-color: ".blue";
+$button-color: ".blue, .lighten-2";
 $button-text: ".white-text";
 
-$brand-text-color: ".black-text";
+$brand-text-color: ".white-text";
 $title-text-color: ".black-text";
 $content-text-color: ".grey-text, .text-darken-4";
 

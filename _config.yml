@@ -25,5 +25,7 @@ author:
 
 
 ### Jekyll stuff
+source      : source
+destination : _site
 exclude     : ["Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md", "*.sublime-*"]
 timezone    : America/Los_Angeles

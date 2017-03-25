@@ -12,7 +12,7 @@ body {
 
 main {
   flex: 1 0 auto;
-  padding-top: 25px;
+  padding-top: 30px;
 }
 
 .brand-logo {
@@ -21,6 +21,7 @@ main {
 
 nav {
   @extend #{$primary-color};
+  box-shadow: none;
 }
 
 .card {

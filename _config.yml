@@ -22,3 +22,8 @@ author:
   github    : https://github.com/vulfgang
   facebook  : https://www.facebook.com/wolfgangcstrack
   linkedin  : https://www.linkedin.com/in/wolfgangcstrack/
+
+
+### Jekyll stuff
+exclude     : ["Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md", "*.sublime-*"]
+timezone    : America/Los_Angeles

@@ -13,6 +13,7 @@ body {
 main {
   flex: 1 0 auto;
   padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .brand-logo {
@@ -24,7 +25,7 @@ nav {
   box-shadow: none;
 }
 
-.card {
+.card, .card-reveal {
   @extend #{$secondary-color};
 }
 
@@ -37,7 +38,7 @@ h1, h2, h3, h4, h5, .card-title {
   @extend #{$title-text-color};
 }
 
-p, .card-content {
+p, .content, .card-content, .card-reveal {
   @extend #{$content-text-color};
 }
 

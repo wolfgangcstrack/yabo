@@ -7,14 +7,16 @@ title       : shiromizu
 description : "Super lame theme."
 keywords    : "Jekyll, theme, portfolio, blog, web"
 
+
 ### Site settings (all the technical thingz)
 # url         : http://vulfgang.github.io
 # baseurl     : "/shiromizu"
 
+
 ### Site settings (colors, pretty thingz, etc.)
 # for list of colors, see http://materializecss.com/color.html#palette
-primary_color   : "light-blue lighten-3"
-secondary_color : "grey lighten-3"
+primary_color   : "red"
+secondary_color : "grey lighten-2"
 
 
 ### Author settings

@@ -1,0 +1,7 @@
+// Mess with colors in here (note: materialize is already imported by source/css/main.scss)
+
+.card-action {
+  a {
+    @extend .red-text;
+  }
+}

@@ -1,22 +1,15 @@
 <footer class="page-footer">
   <div class="container">
     <div class="row">
-      <div class="col l6 s12">
+      <div class="col l9 s12">
         <h5 class=""> {{ site.title }} </h5>
         <p class=""> {{ site.description }} </p>
       </div>
-      <div class="col l3 s12">
-        <h5 class="">Footer Links</h5>
+      <div id="social-links" class="col l3 s12">
         <ul>
-          <li><a href="#!">Link 1</a></li>
-          <li><a href="#!">Link 2</a></li>
-        </ul>
-      </div>
-      <div class="col l3 s12">
-        <h5>More Footer Links</h5>
-        <ul>
-          <li><a href="#!">Link 3</a></li>
-          <li><a href="#!">Link 4</a></li>
+          <li><a href="{{ site.author.linkedin }}" class="waves-effect waves-light btn-floating btn-large"><i class="fa fa-linkedin"></i></a></li>
+          <li><a href="{{ site.author.github }}" class="waves-effect waves-light btn-floating btn-large"><i class="fa fa-github"></i></a></li>
+          <li><a href="{{ site.author.facebook }}" class="waves-effect waves-light btn-floating btn-large"><i class="fa fa-facebook"></i></a></li>
         </ul>
       </div>
     </div>

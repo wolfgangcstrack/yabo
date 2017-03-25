@@ -3,6 +3,12 @@
 // Materialize color palette:
 // http://materializecss.com/color.html#palette
 
-$primary-color: ".red";
+$primary-color: ".light-blue";
 $secondary-color: ".grey, .lighten-3";
-$link-color: ".red-text";
+$tertiary-color: ".grey, .lighten-2"; // mainly for footer
+
+$brand-text-color: ".white-text";
+$title-text-color: ".black-text";
+$content-text-color: ".grey-text, .text-darken-3";
+
+$link-color: ".blue-text";

@@ -11,11 +11,6 @@
 }
 
 
-// @-webkit-keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
-// @-moz-keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
-// @keyframes fadeIn { from {opacity:0;} to {opacity:1;}}
-
-
 body,main,nav,footer,h1,h2,h3,h4,h5,p,a{
 	font-family: "Roboto Light";
 	letter-spacing:1px;
@@ -57,37 +52,6 @@ nav {
 .button-collapse {
   @extend #{$button-text};
 }
-
-// .fade-in {
-//   opacity:0;
-//   -webkit-animation:fadeIn ease-in 1;
-//   -moz-animation:fadeIn ease-in 1;
-//   animation:fadeIn ease-in 1;
-//   -webkit-animation-fill-mode:backwards;
-//   -moz-animation-fill-mode:backwards;
-//   animation-fill-mode:backwards;
-//   -webkit-animation-duration:1s;
-//   -mox-animation-duration:1s;
-//   animation-duration:1s;
-// }
-
-// .fade-in.one{
-//   -webkit-animation-delay:.3s;
-//   -moz-animation-delay:.3s;
-//   animation-delay:.3s;
-// }
-
-// .fade-in.two{
-//   -webkit-animation-delay:1.3s;
-//   -moz-animation-delay:1.3s;
-//   animation-delay:1.3s;
-// }
-
-// .fade-in.three{
-//   -webkit-animation-delay:2.3s;
-//   -moz-animation-delay:2.3s;
-//   animation-delay:2.3s;
-// }
 
 .card, .card-reveal {
   @extend #{$secondary-color};

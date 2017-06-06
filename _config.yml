@@ -9,8 +9,8 @@ keywords    : "Jekyll, theme, portfolio, blog, web"
 
 
 ### Site settings (all the technical thingz)
-# url         : http://wolfgangcstrack.github.io
-# baseurl     : "/yabo"
+url         : http://wolfgangcstrack.github.io
+baseurl     : "/yabo"
 
 
 ### Site settings (colors, pretty thingz, etc.)
@@ -36,5 +36,5 @@ destination : _site
 sass:
   sass_dir  : _sass
   style     : compressed
-exclude     : ["Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md", "*.sublime-*"]
+exclude     : [".gitignore", "Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md", "*.sublime-*"]
 timezone    : America/Los_Angeles

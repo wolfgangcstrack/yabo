@@ -9,7 +9,7 @@ keywords    : "Jekyll, theme, portfolio, blog, web"
 
 
 ### Site settings (all the technical thingz)
-# url         : http://vulfgang.github.io
+# url         : http://wolfgangcstrack.github.io
 # baseurl     : "/yabo"
 
 
@@ -25,8 +25,8 @@ author:
   bio       : "I suck."
   thumb     : /images/author.jpg
   email     : wolfgangcstrack@gmail.com
-  url       : http://vulfgang.github.io/
-  github    : https://github.com/vulfgang
+  url       : http://wolfgang.github.io/
+  github    : https://github.com/wolfgangcstrack
   facebook  : https://www.facebook.com/wolfgangcstrack
   linkedin  : https://www.linkedin.com/in/wolfgangcstrack/
 
@@ -35,7 +35,7 @@ author:
 source      : source
 destination : _site
 sass:
-  sass_dir  : _sass
+  sass_dir  : source/_sass
   style     : compressed
 exclude     : ["Gemfile", "Gemfile.lock", "LICENSE.txt", "README.md", "*.sublime-*"]
 timezone    : America/Los_Angeles
